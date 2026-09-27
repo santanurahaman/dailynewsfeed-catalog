@@ -1,0 +1,61 @@
+{
+  "version": 2,
+  "updatedAt": "2026-09-27T00:00:00Z",
+  "categories": [
+    { "id": "top", "name": "Top Stories", "order": 1 },
+    { "id": "world", "name": "World", "order": 2 },
+    { "id": "germany", "name": "Germany", "order": 3 },
+    { "id": "india", "name": "India", "order": 4 },
+    { "id": "business", "name": "Business", "order": 5 },
+    { "id": "tech", "name": "Technology", "order": 6 },
+    { "id": "ai", "name": "AI", "order": 7 },
+    { "id": "science", "name": "Science", "order": 8 },
+    { "id": "health", "name": "Health", "order": 9 },
+    { "id": "sports", "name": "Sports", "order": 10 },
+    { "id": "entertainment", "name": "Entertainment", "order": 11 }
+  ],
+  "feeds": [
+    { "url": "https://feeds.bbci.co.uk/news/world/rss.xml", "title": "BBC World", "siteUrl": "https://www.bbc.com/news", "categoryId": "world", "sourceWeight": 1.4, "paywalled": false, "language": "en", "region": "uk" },
+    { "url": "https://rss.dw.com/rdf/rss-en-all", "title": "DW", "siteUrl": "https://www.dw.com", "categoryId": "world", "sourceWeight": 1.4, "paywalled": false, "language": "en", "region": "de" },
+    { "url": "https://www.aljazeera.com/xml/rss/all.xml", "title": "Al Jazeera", "siteUrl": "https://www.aljazeera.com", "categoryId": "world", "sourceWeight": 1.2, "paywalled": false, "language": "en", "region": "qa" },
+    { "url": "https://www.theguardian.com/world/rss", "title": "The Guardian World", "siteUrl": "https://www.theguardian.com", "categoryId": "world", "sourceWeight": 1.2, "paywalled": false, "language": "en", "region": "uk" },
+    { "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml", "title": "NYT World", "siteUrl": "https://www.nytimes.com", "categoryId": "world", "sourceWeight": 1.2, "paywalled": true, "language": "en", "region": "us" },
+    { "url": "https://feeds.npr.org/1004/rss.xml", "title": "NPR World", "siteUrl": "https://www.npr.org", "categoryId": "world", "sourceWeight": 1.1, "paywalled": false, "language": "en", "region": "us" },
+    { "url": "https://www.france24.com/en/rss", "title": "France 24", "siteUrl": "https://www.france24.com", "categoryId": "world", "sourceWeight": 1.1, "paywalled": false, "language": "en", "region": "fr" },
+    { "url": "https://feeds.skynews.com/feeds/rss/world.xml", "title": "Sky News World", "siteUrl": "https://news.sky.com", "categoryId": "world", "sourceWeight": 1.0, "paywalled": false, "language": "en", "region": "uk" },
+
+    { "url": "https://rss.dw.com/rdf/rss-en-ger", "title": "DW Germany", "siteUrl": "https://www.dw.com", "categoryId": "germany", "sourceWeight": 1.4, "paywalled": false, "language": "en", "region": "de" },
+    { "url": "https://www.spiegel.de/international/index.rss", "title": "Spiegel International", "siteUrl": "https://www.spiegel.de", "categoryId": "germany", "sourceWeight": 1.2, "paywalled": false, "language": "en", "region": "de" },
+    { "url": "https://www.tagesschau.de/index~rss2.xml", "title": "tagesschau", "siteUrl": "https://www.tagesschau.de", "categoryId": "germany", "sourceWeight": 1.2, "paywalled": false, "language": "de", "region": "de" },
+    { "url": "https://feeds.thelocal.com/rss/de", "title": "The Local Germany", "siteUrl": "https://www.thelocal.de", "categoryId": "germany", "sourceWeight": 1.0, "paywalled": false, "language": "en", "region": "de" },
+
+    { "url": "https://www.thehindu.com/news/national/feeder/default.rss", "title": "The Hindu", "siteUrl": "https://www.thehindu.com", "categoryId": "india", "sourceWeight": 1.4, "paywalled": false, "language": "en", "region": "in" },
+    { "url": "https://indianexpress.com/feed/", "title": "Indian Express", "siteUrl": "https://indianexpress.com", "categoryId": "india", "sourceWeight": 1.1, "paywalled": false, "language": "en", "region": "in" },
+    { "url": "https://feeds.feedburner.com/ndtvnews-top-stories", "title": "NDTV", "siteUrl": "https://www.ndtv.com", "categoryId": "india", "sourceWeight": 1.0, "paywalled": false, "language": "en", "region": "in" },
+    { "url": "https://www.livemint.com/rss/news", "title": "Mint", "siteUrl": "https://www.livemint.com", "categoryId": "india", "sourceWeight": 1.1, "paywalled": false, "language": "en", "region": "in" },
+
+    { "url": "https://feeds.bbci.co.uk/news/business/rss.xml", "title": "BBC Business", "siteUrl": "https://www.bbc.com/news", "categoryId": "business", "sourceWeight": 1.4, "paywalled": false, "language": "en", "region": "uk" },
+    { "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html", "title": "CNBC", "siteUrl": "https://www.cnbc.com", "categoryId": "business", "sourceWeight": 1.1, "paywalled": false, "language": "en", "region": "us" },
+    { "url": "https://www.theguardian.com/uk/business/rss", "title": "Guardian Business", "siteUrl": "https://www.theguardian.com", "categoryId": "business", "sourceWeight": 1.2, "paywalled": false, "language": "en", "region": "uk" },
+    { "url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml", "title": "NYT Business", "siteUrl": "https://www.nytimes.com", "categoryId": "business", "sourceWeight": 1.2, "paywalled": true, "language": "en", "region": "us" },
+
+    { "url": "https://feeds.bbci.co.uk/news/technology/rss.xml", "title": "BBC Technology", "siteUrl": "https://www.bbc.com/news", "categoryId": "tech", "sourceWeight": 1.4, "paywalled": false, "language": "en", "region": "uk" },
+    { "url": "https://www.theverge.com/rss/index.xml", "title": "The Verge", "siteUrl": "https://www.theverge.com", "categoryId": "tech", "sourceWeight": 1.0, "paywalled": false, "language": "en", "region": "us" },
+    { "url": "https://feeds.arstechnica.com/arstechnica/index", "title": "Ars Technica", "siteUrl": "https://arstechnica.com", "categoryId": "tech", "sourceWeight": 1.1, "paywalled": false, "language": "en", "region": "us" },
+    { "url": "https://techcrunch.com/feed/", "title": "TechCrunch", "siteUrl": "https://techcrunch.com", "categoryId": "tech", "sourceWeight": 1.0, "paywalled": false, "language": "en", "region": "us" },
+    { "url": "https://www.heise.de/rss/heise-atom.xml", "title": "heise online", "siteUrl": "https://www.heise.de", "categoryId": "tech", "sourceWeight": 1.0, "paywalled": false, "language": "de", "region": "de" },
+
+    { "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "title": "TechCrunch AI", "siteUrl": "https://techcrunch.com", "categoryId": "ai", "sourceWeight": 1.0, "paywalled": false, "language": "en", "region": "us" },
+    { "url": "https://venturebeat.com/category/ai/feed/", "title": "VentureBeat AI", "siteUrl": "https://venturebeat.com", "categoryId": "ai", "sourceWeight": 0.9, "paywalled": false, "language": "en", "region": "us" },
+    { "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "title": "The Verge AI", "siteUrl": "https://www.theverge.com", "categoryId": "ai", "sourceWeight": 1.0, "paywalled": false, "language": "en", "region": "us" },
+
+    { "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml", "title": "BBC Science", "siteUrl": "https://www.bbc.com/news", "categoryId": "science", "sourceWeight": 1.4, "paywalled": false, "language": "en", "region": "uk" },
+    { "url": "https://rss.nytimes.com/services/xml/rss/nyt/Science.xml", "title": "NYT Science", "siteUrl": "https://www.nytimes.com", "categoryId": "science", "sourceWeight": 1.2, "paywalled": true, "language": "en", "region": "us" },
+
+    { "url": "https://feeds.bbci.co.uk/news/health/rss.xml", "title": "BBC Health", "siteUrl": "https://www.bbc.com/news", "categoryId": "health", "sourceWeight": 1.4, "paywalled": false, "language": "en", "region": "uk" },
+
+    { "url": "https://feeds.bbci.co.uk/sport/rss.xml", "title": "BBC Sport", "siteUrl": "https://www.bbc.com/sport", "categoryId": "sports", "sourceWeight": 1.3, "paywalled": false, "language": "en", "region": "uk" },
+
+    { "url": "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml", "title": "BBC Entertainment", "siteUrl": "https://www.bbc.com/news", "categoryId": "entertainment", "sourceWeight": 1.3, "paywalled": false, "language": "en", "region": "uk" }
+  ]
+}
