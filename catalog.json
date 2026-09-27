@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "updatedAt": "2026-09-27T00:00:00Z",
   "categories": [
     { "id": "top", "name": "Top Stories", "order": 1 },
@@ -12,7 +12,9 @@
     { "id": "science", "name": "Science", "order": 8 },
     { "id": "health", "name": "Health", "order": 9 },
     { "id": "sports", "name": "Sports", "order": 10 },
-    { "id": "entertainment", "name": "Entertainment", "order": 11 }
+    { "id": "entertainment", "name": "Entertainment", "order": 11 },
+    { "id": "security", "name": "Security", "order": 12 },
+    { "id": "iot", "name": "IoT", "order": 13 }
   ],
   "feeds": [
     { "url": "https://feeds.bbci.co.uk/news/world/rss.xml", "title": "BBC World", "siteUrl": "https://www.bbc.com/news", "categoryId": "world", "sourceWeight": 1.4, "paywalled": false, "language": "en", "region": "uk" },
@@ -48,6 +50,15 @@
     { "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "title": "TechCrunch AI", "siteUrl": "https://techcrunch.com", "categoryId": "ai", "sourceWeight": 1.0, "paywalled": false, "language": "en", "region": "us" },
     { "url": "https://venturebeat.com/category/ai/feed/", "title": "VentureBeat AI", "siteUrl": "https://venturebeat.com", "categoryId": "ai", "sourceWeight": 0.9, "paywalled": false, "language": "en", "region": "us" },
     { "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "title": "The Verge AI", "siteUrl": "https://www.theverge.com", "categoryId": "ai", "sourceWeight": 1.0, "paywalled": false, "language": "en", "region": "us" },
+
+    { "url": "https://www.bleepingcomputer.com/feed/", "title": "BleepingComputer", "siteUrl": "https://www.bleepingcomputer.com", "categoryId": "security", "sourceWeight": 1.1, "paywalled": false, "language": "en", "region": "us" },
+    { "url": "https://feeds.feedburner.com/TheHackersNews", "title": "The Hacker News", "siteUrl": "https://thehackernews.com", "categoryId": "security", "sourceWeight": 1.0, "paywalled": false, "language": "en", "region": "us" },
+    { "url": "https://krebsonsecurity.com/feed/", "title": "Krebs on Security", "siteUrl": "https://krebsonsecurity.com", "categoryId": "security", "sourceWeight": 1.0, "paywalled": false, "language": "en", "region": "us" },
+    { "url": "https://www.wired.com/feed/category/security/latest/rss", "title": "Wired Security", "siteUrl": "https://www.wired.com/category/security", "categoryId": "security", "sourceWeight": 1.2, "paywalled": true, "language": "en", "region": "us" },
+
+    { "url": "https://www.iotforall.com/feed", "title": "IoT For All", "siteUrl": "https://www.iotforall.com", "categoryId": "iot", "sourceWeight": 0.9, "paywalled": false, "language": "en", "region": "us" },
+    { "url": "https://www.iottechnews.com/feed/", "title": "IoT Tech News", "siteUrl": "https://www.iottechnews.com", "categoryId": "iot", "sourceWeight": 0.9, "paywalled": false, "language": "en", "region": "uk" },
+    { "url": "https://www.engadget.com/rss.xml", "title": "Engadget", "siteUrl": "https://www.engadget.com", "categoryId": "iot", "sourceWeight": 1.1, "paywalled": false, "language": "en", "region": "us" },
 
     { "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml", "title": "BBC Science", "siteUrl": "https://www.bbc.com/news", "categoryId": "science", "sourceWeight": 1.4, "paywalled": false, "language": "en", "region": "uk" },
     { "url": "https://rss.nytimes.com/services/xml/rss/nyt/Science.xml", "title": "NYT Science", "siteUrl": "https://www.nytimes.com", "categoryId": "science", "sourceWeight": 1.2, "paywalled": true, "language": "en", "region": "us" },
